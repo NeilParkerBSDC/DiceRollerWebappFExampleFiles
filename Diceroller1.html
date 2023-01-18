@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- code to make the page responsive - i.e. automatically change size -->
+<style>
+
+body {
+    background-color: #FFFFFF;
+    font-family: "arial", "verdana";
+    font-size: 2vw;
+	color: #e7e3ef
+     }
+h1 {
+     font-family: "arial", "verdana";
+    font-size: 7vw;
+	color: #330033   
+	}
+#Panel {
+      position: relative;
+      max-width:1400px;
+	  min-width:400px;
+      min-height:250px;
+	  max-height:500px;
+	  background-color: #492c93;
+   }
+textarea {
+	border: 1px solid #888;
+    font-size: 3vw; 
+	font-family: "arial";
+	color: purple;
+	border-radius: 8px;
+}
+option {
+    font-size: 2vw; 
+}
+select {
+	font-size: 2vw;  
+	border-radius: 8px; 		
+}
+input[type ="Text"] {
+	font-size: 1vw; 
+	background-color:#492c93;
+	border: 0px;	
+	border-radius: 4px;	
+}
+input[type="submit"] {
+	font-size: 2vw; 
+} 
+</style>
+
+<script>
+function RandomNumber() {
+	// get dice type
+	dicetype=prompt('What dice type do you want - 4, 6 or 12')
+	// we could out in a while loop here like in the python 
+	//version to keep asking the question until we get a valid input, but there 
+     //is a much better solution in the next version
+	
+	//generate random number
+	RandNo=Math.random();
+	numberRolled=Math.floor(RandNo*dicetype)+1;
+	// display it
+alert(numberRolled);	
+}
+
+</script>
+
+</head>
+<body>
+<h1>Dice Roller Version 1</h1>
+
+<div id="Panel">
+<p>This version of the dice roller is partially procedural like the python version. It is true there is now a control 
+(a button) which when clicked (an 'onClick' event trigger) which calls a function (and event handler), but the process 
+uses a prompt (pop up box) to ask for the input and an alter (pop up box) to display the result. In the next version we 
+will make better use of html form elements to make the app much more event driven and user friendly</p>
+<input type="submit" onclick=RandomNumber() value="Roll Dice"></input><br/>
+</div>
+
+</body>
+<html>
