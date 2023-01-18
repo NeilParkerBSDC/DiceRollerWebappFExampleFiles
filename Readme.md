@@ -11,8 +11,8 @@ This improves **diceroller1.py** improved by adding a loop to allow repeating th
 
 ## diceroller1.html
 
-This uses html as a user interface and introduces the use of a button to call a function rolling a dice. It intoduces the event driven concept, but the function mimics the earler python code though the use of ```prompt()`` instread of python's ```input()``` and ```alert()``` to replace python's ```print()```.
+This uses html as a user interface and introduces the use of a button to call a function rolling a dice. It intoduces the event driven concept, but the function mimics the earler python code though the use of ```prompt()``` instread of python's ```input()``` and ```alert()``` to replace python's ```print()```.
 
 ## diceroller2.html
 
-This adds a ```select`` dropdown form element to eliminate user input errors in the use of ```prompt()``` and outputs to a test box instead of using ```alert```.
+This adds a ```select``` dropdown form element to eliminate user input errors in the use of ```prompt()``` and outputs to a test box instead of using ```alert```.
