@@ -1,7 +1,7 @@
 # Dice roller files
 
 > These files are used as exampkes in teaching. The aim is to move from familiar procedural python to event driven JavaScript:
-## diceriller1.py
+## diceroller1.py
 
 This contains a the basic input of a dice ype choice (i.e. a 4, 6 or 12 sided dice) and outputs a random number to mimic the use of that type of dice. It runs once
 
