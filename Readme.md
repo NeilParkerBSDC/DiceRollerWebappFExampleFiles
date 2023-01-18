@@ -15,4 +15,4 @@ This uses html as a user interface and introduces the use of a button to call a 
 
 ## diceroller2.html
 
-This adds a ```select`` dropdown form element to eliminate user input errors in the use of ```prompt()`` and outputs to a test box instead of using ```alert```.
+This adds a ```select`` dropdown form element to eliminate user input errors in the use of ```prompt()``` and outputs to a test box instead of using ```alert```.
